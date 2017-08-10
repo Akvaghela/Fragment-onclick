@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:id="@+id/TiffinImage"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id:-"
+                android:textSize="22dp"
+                android:id="@+id/TiffinId"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price:-"
+                android:layout_marginLeft="60dp"
+                android:textSize="22dp"
+                android:textColor="#e10505"
+                android:gravity="center"
+                android:id="@+id/TiffinPrice"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabji:-"
+            android:id="@+id/TiffinSabji"
+            android:textSize="17dp"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roti:-"
+            android:id="@+id/TiffinRoti"
+            android:textSize="17dp"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chawal:-"
+            android:id="@+id/TiffinChawal"
+            android:textSize="17dp"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dal:-"
+            android:id="@+id/TiffinDal"
+            android:textSize="17dp"
+            android:layout_marginTop="7dp"/>
+    </LinearLayout>
+</LinearLayout>
